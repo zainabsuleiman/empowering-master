@@ -1,5 +1,5 @@
 import Creavbar from "../../components/navbar/Creavbar";
-import Navbar from "../../components/navbar/navbar";
+import Navbar from '../homePage/Navbar';
 import Crea from "../../components/signinForm/Crea";
 import "./signinPage.css"
 
@@ -7,7 +7,7 @@ function Create() {
   return (
     <div id="signinpage">
       <div id="nav">
-        <Creavbar />
+        <Navbar />
       </div>
       <div id="signinn">
         <Crea />

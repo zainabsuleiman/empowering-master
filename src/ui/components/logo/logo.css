@@ -17,5 +17,5 @@
     font-size: 30px;
     /* font-family: cursive monospace; */
     font-family:'Lobster', cursive;
-    color: var(--primaryColor);
+    color: hsl(162, 50%, 50%);
 }

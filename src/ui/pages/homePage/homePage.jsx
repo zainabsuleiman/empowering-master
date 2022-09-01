@@ -1,19 +1,13 @@
 import Navbar from "../../components/navbar/navbar";
 import "./homePage.css";
-
+import Feature from './Feature'
+import Header from './Hader';
+import Hader from "./Hader";
 function HomePage() {
   return (
     <div>
-      <div id="navbar"><Navbar/></div>
-      <div id="homeMain">
-        <div id="homeImage">
-
-        </div>
-        <div id="homeAbout"></div>
-        <div id="homeFounder"></div>
-        <div id="homeUsers"></div>
-      </div>
-      <div id="homefooter"></div>
+      <Hader/>
+      <Feature/>
     </div>
   );
 }
