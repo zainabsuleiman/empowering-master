@@ -8,8 +8,8 @@ function Feature() {
     <div id='features'> 
 <div className='a-container'>
 <FeatureBox image={feat1}  title='Anitha Flower'/>
-<FeatureBox image={feat2}  title='Anitha Flower'/>
-<FeatureBox image={feat3}  title='Anitha Flower'/>
+<FeatureBox image={feat2}  title='Saloon'/>
+<FeatureBox image={feat3}  title='Cabbages Farming '/>
 </div>
     </div>
   )

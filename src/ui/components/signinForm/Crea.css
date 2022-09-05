@@ -33,12 +33,13 @@
     border: 1px solid var(--borderColor);
     outline: none;
 }
-#signin button{
+#signin .button{
     width: 150px;
     padding: 5px;
     margin-top: 10px;
     border-radius: 5px;
     color: white;
+    text-align: center;
     border: none;
     font-family: var(--font);
     background-color: var(--primaryColor);

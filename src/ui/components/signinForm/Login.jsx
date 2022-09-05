@@ -1,5 +1,5 @@
 import "./Login.css"
-
+import {Link} from 'react-router-dom';
 function Login() {
   return (
     <form id="signin">
@@ -22,7 +22,7 @@ function Login() {
         <h4 className="for">Forgot Password</h4>
       </div>
        
-      <button>Log In </button>
+      <Link Link className=" button" to="/dash"  >Log In </Link>
     </form>
   )
 }

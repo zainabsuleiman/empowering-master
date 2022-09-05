@@ -1,5 +1,8 @@
 import React from 'react'
 import Navabr from './Navbar'
+import feat2 from './Ellipse1.png';
+import FeatureBox from './FeatureBox';
+import {Link} from 'react-router-dom';
 function Hader() {
   return (
     <div id="main"> 
@@ -12,7 +15,16 @@ function Hader() {
         >
            Promoting Economic Empowerment of Women At work . Through Responsible Bussiness
         </p>
-        <a href='#' className='cv-btn'>Join Us</a>
+        <Link  to ='/Create' className='cv-btn'>Join Us</Link>
+    </div>
+    <div className='left'>
+    <div className='ab-img'>
+      <img src={feat2} alt=''/>
+    </div>
+    <div className='sb-text'>
+        <h2>Apploud Her</h2>
+      
+       </div>
     </div>
     </div>
   )

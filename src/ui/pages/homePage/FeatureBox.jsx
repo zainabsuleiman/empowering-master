@@ -6,7 +6,7 @@ function FeatureBox(props) {
        <div className='a-b-img'>
         <img src={props.image} />
        </div>
-       <div className='sb-text'>
+       <div className='s-b-text'>
         <h2>{props.title}</h2>
         <p>Promoting Economic Empowerment of Women At work .  </p>
        </div>

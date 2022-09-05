@@ -1,5 +1,8 @@
 import "./Crea.css"
-
+import {Link} from 'react-router-dom';
+// const st={
+//   border : 1
+// }
 function Crea() {
   return (
     <form id="signin">
@@ -24,7 +27,7 @@ function Crea() {
         <label htmlFor="">  Confirm Password</label>
         <input type="password" />
       </div>
-      <button>Create </button>
+      <Link className="button" to="/Login" >Create </Link>
     </form>
   )
 }
